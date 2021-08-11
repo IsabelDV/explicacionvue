@@ -1,6 +1,6 @@
 <template>
   <div>
-    <!--Con la directiva v-bind enlazamos un atributo (h2, img)
+    <!--Con la directiva v-bind enlazamos un atributo de una etiqueta (h2, img)
         a una variable (image, title)-->
     <img width="100" v-bind:src="image" v-bind:alt="title"/>
     <h2>{{ title }}</h2>
