@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-<!--Nombre del archivo del componente-->
+    <!--Nombre del archivo del componente-->
     <Navbar></Navbar>
     <router-view/>
   </div>

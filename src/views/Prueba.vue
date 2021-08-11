@@ -1,17 +1,17 @@
 <template>
-<div class="prueba">
-  <h1>Esto es una página de películas</h1>
-  <!--El bucle FOR se especifica con Vue poniendo v-for donde te recorre todos
-  los datos que se encuentran en movies (que es un array) que se lo devolvemos
-  por data en la exportación por defecto más abajo. :key se asegurará de que
-  refleje lo que se debe representar en ese índice en particular-->
-  <Movie v-for="(movie, index) in movies"
-      :key="index"
-      :title="movie.title"
-      :image="movie.image"
-  >
-  </Movie>
-</div>
+  <div class="prueba">
+    <h1>Esto es una página de películas</h1>
+    <!--El bucle FOR se especifica con Vue poniendo v-for donde te recorre todos
+    los datos que se encuentran en movies (que es un array) que se lo devolvemos
+    por data en la exportación por defecto más abajo. :key se asegurará de que
+    refleje lo que se debe representar en ese índice en particular-->
+    <Movie v-for="(movie, index) in movies"
+           :key="index"
+           :title="movie.title"
+           :image="movie.image"
+    >
+    </Movie>
+  </div>
 </template>
 
 <script>
