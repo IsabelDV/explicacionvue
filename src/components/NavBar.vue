@@ -5,11 +5,13 @@
     en el archivo index.js de router-->
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
-    <router-link :to="{name: 'Prueba'}">Prueba</router-link>
+    <router-link :to="{name: 'Prueba'}">Prueba</router-link> |
+    <router-link :to="{name: 'product'}">Productos</router-link>
   </div>
 </template>
 
 <script>
+
 export default {
   name: "NavBar"
 }

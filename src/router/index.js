@@ -25,6 +25,11 @@ const routes = [
         * "import Prueba from '@/views/Prueba';" arriba y poniendo en la línea
         * de abajo component: Prueba , o como tenemos aquí abajo.*/
         component: () => import('../views/Prueba.vue')
+    },
+    {
+        path: '/product',
+        name: 'product',
+        component:() => import('../views/Products')
     }
 ]
 
