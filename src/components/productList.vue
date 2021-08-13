@@ -25,6 +25,7 @@ export default {
     }
   },
   methods: {
+    // Añade un producto al carrito desde la llamada realizada del botón
     addToCart(product) {
       this.$store.dispatch("addProducts", product)
     }

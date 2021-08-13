@@ -20,7 +20,7 @@ const product = [
 ];
 
 export default {
-    getProducts(cb) {
-        setTimeout(() => cb(product), 100);
+    getProducts(pepito) {
+        setTimeout(() => pepito(product), 100);
     }
 };
