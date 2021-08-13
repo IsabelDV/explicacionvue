@@ -1,5 +1,5 @@
 # explicacionvue
-Simplemente una nueva vista llamada "Prueba" que se trae un componente para que te muestre las películas, se irán añadiendo cosas nuevas de prueba.
+Simplemente una nueva vista llamada "Prueba" que se trae un componente para que te muestre las películas, también dispone de un carrito donde se pueden añadir o borrar productos y te restaura el inventario de estos, se irán añadiendo cosas nuevas de prueba.
 
 ## Project setup
 ```
