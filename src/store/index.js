@@ -70,7 +70,6 @@ export default new Vuex.Store({
     },
     // Con el array de cart puede buscar (context) y el índice
     removeProductFromCart(context, index){
-      console.log('He entrado')
       const item = context.state.cart[index];
       // Elimina el producto del carrito
       context.commit("REMOVE_PRODUCT_FROM_CART", index)

@@ -17,7 +17,6 @@ export default {
   methods: {
     removeItem(index) {
       // Quita del carrito y restaura el valor de inventario
-      console.log(this.$store)
       this.$store.dispatch('removeProductFromCart', index)
     }
   },
