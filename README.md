@@ -1,5 +1,5 @@
 # explicacionvue
-Simplemente una nueva vista llamada "Prueba" que se trae un componente para que te muestre las películas.
+Simplemente una nueva vista llamada "Prueba" que se trae un componente para que te muestre las películas, se irán añadiendo cosas nuevas de prueba.
 
 ## Project setup
 ```
